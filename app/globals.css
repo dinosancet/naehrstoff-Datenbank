@@ -1,1 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+:root{
+  --bg:#f6f7fb;
+  --card:#ffffff;
+  --muted:#8b8f98;
+  --accent:#16a34a;
+  --border:#e6e9f2;
+  --text:#0b1220;
+}
+
+html,body,#__next{height:100%}
+body{
+  margin:0;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:var(--bg);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.container{
+  max-width:980px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.header-title{
+  font-size:28px;
+  font-weight:700;
+  margin:0;
+}
+
+.header-sub{
+  color:var(--muted);
+  margin:6px 0 18px 0;
+}
+
+/* Card */
+.card{
+  background:var(--card);
+  border-radius:14px;
+  padding:16px;
+  box-shadow:0 6px 18px rgba(20,24,48,0.04);
+  border:1px solid var(--border);
+}
+
+/* Food item list */
+.food-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:12px;
+}
+.food-title{font-size:18px;font-weight:700;color:#000}
+.food-sub{font-size:13px;color:var(--muted)}
+
+/* nutrient row */
+.row{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  padding:10px 0;
+  border-top:1px solid #f0f2f8;
+}
+.row:first-of-type{border-top:0}
+.nutrient-name{font-weight:700;color:#000;font-size:15px}
+.nutrient-use{color:var(--muted);font-size:13px;margin-top:6px}
+
+/* right column */
+.right-col{text-align:right;width:180px}
+.small{font-size:12px;color:#a0a6b3}
+.amount{font-size:14px}
+
+/* progress */
+.progress-outer{height:8px;background:#eef1f6;border-radius:6px;overflow:hidden;margin-top:8px}
+.progress-inner{height:8px;background:var(--accent);border-radius:6px}
+
+/* search */
+.search{
+  display:flex;gap:12px;margin-bottom:18px;
+}
+.input{
+  flex:1;padding:10px 12px;border-radius:10px;border:1px solid var(--border);font-size:15px;background:#fff;
+}
+.count{width:120px;text-align:right;color:var(--muted);padding-top:10px;font-size:13px}
+
+/* ad placeholder */
+.ad{
+  margin-top:24px;padding:12px;background:#fff;border-radius:8px;border:1px dashed #ccc;text-align:center;color:#666
+}
+
+/* responsive */
+@media (max-width:640px){
+  .right-col{width:140px}
+}
