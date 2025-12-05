@@ -1,1 +1,82 @@
-
+[
+  {
+    "Lebensmittel": "Brokkoli",
+    "Nährstoffe": [
+      { "Name": "Vitamin C", "Menge je 100 g": "89.2 mg", "Normwert": "95 mg", "Abdeckung": "93.9 %", "Nutzen": "Unterstützt das Immunsystem" },
+      { "Name": "Vitamin K", "Menge je 100 g": "101.6 µg", "Normwert": "70 µg", "Abdeckung": "145.1 %", "Nutzen": "Blutgerinnung & Knochen" },
+      { "Name": "Eiweiß", "Menge je 100 g": "2.8 g", "Normwert": "50 g", "Abdeckung": "5.6 %", "Nutzen": "Muskelaufbau" }
+    ]
+  },
+  {
+    "Lebensmittel": "Karotte",
+    "Nährstoffe": [
+      { "Name": "Vitamin A (RE)", "Menge je 100 g": "835 µg", "Normwert": "900 µg", "Abdeckung": "92.8 %", "Nutzen": "Sehkraft, Haut" },
+      { "Name": "Beta-Carotin", "Menge je 100 g": "8285 µg", "Normwert": "2000 µg", "Abdeckung": "414.3 %", "Nutzen": "Antioxidans, Vorstufe Vitamin A" },
+      { "Name": "Vitamin C", "Menge je 100 g": "5.9 mg", "Normwert": "95 mg", "Abdeckung": "6.2 %", "Nutzen": "Immunsystem" }
+    ]
+  },
+  {
+    "Lebensmittel": "Apfel",
+    "Nährstoffe": [
+      { "Name": "Vitamin C", "Menge je 100 g": "4.6 mg", "Normwert": "95 mg", "Abdeckung": "4.8 %", "Nutzen": "Immunsystem" },
+      { "Name": "Ballaststoffe", "Menge je 100 g": "2.4 g", "Normwert": "30 g", "Abdeckung": "8.0 %", "Nutzen": "Verdauung" },
+      { "Name": "Kalium", "Menge je 100 g": "107 mg", "Normwert": "3500 mg", "Abdeckung": "3.1 %", "Nutzen": "Muskeln, Herz" }
+    ]
+  },
+  {
+    "Lebensmittel": "Banane",
+    "Nährstoffe": [
+      { "Name": "Kalium", "Menge je 100 g": "358 mg", "Normwert": "3500 mg", "Abdeckung": "10.2 %", "Nutzen": "Herz, Blutdruckregulation" },
+      { "Name": "Vitamin B6", "Menge je 100 g": "0.4 mg", "Normwert": "1.4 mg", "Abdeckung": "28.6 %", "Nutzen": "Nervensystem, Stoffwechsel" },
+      { "Name": "Vitamin C", "Menge je 100 g": "8.7 mg", "Normwert": "95 mg", "Abdeckung": "9.2 %", "Nutzen": "Immunsystem" }
+    ]
+  },
+  {
+    "Lebensmittel": "Spinat",
+    "Nährstoffe": [
+      { "Name": "Eisen", "Menge je 100 g": "2.7 mg", "Normwert": "14 mg", "Abdeckung": "19.3 %", "Nutzen": "Blutbildung" },
+      { "Name": "Folsäure", "Menge je 100 g": "194 µg", "Normwert": "300 µg", "Abdeckung": "64.7 %", "Nutzen": "Zellteilung, Schwangerschaft" },
+      { "Name": "Vitamin C", "Menge je 100 g": "28.1 mg", "Normwert": "95 mg", "Abdeckung": "29.6 %", "Nutzen": "Immunsystem" }
+    ]
+  },
+  {
+    "Lebensmittel": "Lachs",
+    "Nährstoffe": [
+      { "Name": "Vitamin D", "Menge je 100 g": "10 µg", "Normwert": "20 µg", "Abdeckung": "50.0 %", "Nutzen": "Knochen, Immunsystem" },
+      { "Name": "Omega-3 (EPA/DHA)", "Menge je 100 g": "2.5 g", "Normwert": "2 g", "Abdeckung": "125.0 %", "Nutzen": "Herz, Gehirn" },
+      { "Name": "Eiweiß", "Menge je 100 g": "20 g", "Normwert": "50 g", "Abdeckung": "40.0 %", "Nutzen": "Muskelaufbau" }
+    ]
+  },
+  {
+    "Lebensmittel": "Ei",
+    "Nährstoffe": [
+      { "Name": "Vitamin B12", "Menge je 100 g": "1.1 µg", "Normwert": "2.4 µg", "Abdeckung": "45.8 %", "Nutzen": "Nerven, Blutbildung" },
+      { "Name": "Vitamin D", "Menge je 100 g": "2 µg", "Normwert": "20 µg", "Abdeckung": "10.0 %", "Nutzen": "Knochen" },
+      { "Name": "Eiweiß", "Menge je 100 g": "13 g", "Normwert": "50 g", "Abdeckung": "26.0 %", "Nutzen": "Muskelaufbau" }
+    ]
+  },
+  {
+    "Lebensmittel": "Haferflocken",
+    "Nährstoffe": [
+      { "Name": "Ballaststoffe", "Menge je 100 g": "10.6 g", "Normwert": "30 g", "Abdeckung": "35.3 %", "Nutzen": "Verdauung" },
+      { "Name": "Eisen", "Menge je 100 g": "4.7 mg", "Normwert": "14 mg", "Abdeckung": "33.6 %", "Nutzen": "Blutbildung" },
+      { "Name": "Eiweiß", "Menge je 100 g": "13 g", "Normwert": "50 g", "Abdeckung": "26.0 %", "Nutzen": "Muskelaufbau" }
+    ]
+  },
+  {
+    "Lebensmittel": "Mandeln",
+    "Nährstoffe": [
+      { "Name": "Vitamin E", "Menge je 100 g": "25 mg", "Normwert": "15 mg", "Abdeckung": "166.7 %", "Nutzen": "Zellschutz, Haut" },
+      { "Name": "Eiweiß", "Menge je 100 g": "21.2 g", "Normwert": "50 g", "Abdeckung": "42.4 %", "Nutzen": "Muskelaufbau" },
+      { "Name": "Kalium", "Menge je 100 g": "705 mg", "Normwert": "3500 mg", "Abdeckung": "20.1 %", "Nutzen": "Herz, Muskeln" }
+    ]
+  },
+  {
+    "Lebensmittel": "Tomate",
+    "Nährstoffe": [
+      { "Name": "Vitamin C", "Menge je 100 g": "13.7 mg", "Normwert": "95 mg", "Abdeckung": "14.4 %", "Nutzen": "Immunsystem" },
+      { "Name": "Lycopin", "Menge je 100 g": "3 mg", "Normwert": "-", "Abdeckung": "", "Nutzen": "Antioxidans" },
+      { "Name": "Kalium", "Menge je 100 g": "237 mg", "Normwert": "3500 mg", "Abdeckung": "6.8 %", "Nutzen": "Herz, Muskeln" }
+    ]
+  }
+]
