@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import foods from "../data/foods.json";
+import foods from "../data/foods.js";
 import NutrientCard from "./NutrientCard";
 
 export default function NutrientList() {
